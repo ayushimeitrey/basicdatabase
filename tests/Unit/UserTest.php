@@ -20,6 +20,6 @@ class UserTest extends TestCase
 
         $this->assertInternalType('int', $user -> id);
 
-
+        $this->assertInstanceOf('App\User',$user);
     }
 }
