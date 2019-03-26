@@ -23,6 +23,6 @@ class UserTest extends TestCase
         $this->assertInstanceOf('App\User',$user);
 
         $this->assertContains('@example', $user->email);
-        
+
     }
 }
